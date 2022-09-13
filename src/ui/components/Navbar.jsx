@@ -39,6 +39,17 @@ export const Navbar = () => {
           >
             DC
           </NavLink>
+
+          <NavLink
+            className={
+              location.pathname === "/search"
+                ? "nav-item nav-link active"
+                : "nav-item nav-link"
+            }
+            to="/search"
+          >
+            Search
+          </NavLink>
         </div>
       </div>
 
