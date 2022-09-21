@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for auth/context/authReducer.js</title>
+    <title>Code coverage report for heroes/routes/HeroesRoutes.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">auth/context</a> authReducer.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">heroes/routes</a> HeroesRoutes.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/4</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
@@ -84,12 +84,13 @@
 <a name='L19'></a><a href='#L19'>19</a>
 <a name='L20'></a><a href='#L20'>20</a>
 <a name='L21'></a><a href='#L21'>21</a>
-<a name='L22'></a><a href='#L22'>22</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -97,36 +98,41 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { types } from "../types/types";
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Route, Routes, Navigate } from "react-router-dom";
+import { Navbar } from "../../ui";
+import { MarvelPage, DcPage, SearchPage, HeroPage } from "../pages";
 &nbsp;
-export const authReducer = ( state = <span class="branch-0 cbranch-no" title="branch not covered" >{},</span> action ) =&gt; {
+export const HeroesRoutes = () =&gt; {
+  return (
+    &lt;&gt;
+      &lt;Navbar /&gt;
 &nbsp;
-    switch(action.type){
-        case types.login:
-            return {
-                ...state,
-                logged: true,
-                user: action.payload
-            };
+      &lt;div className="container"&gt;
+        &lt;Routes&gt;
+          &lt;Route path="/marvel" element={&lt;MarvelPage /&gt;} /&gt;
+          &lt;Route path="/dc" element={&lt;DcPage /&gt;} /&gt;
 &nbsp;
-        case types.logout:
-            return {
-                logged: false,
-            };
+          &lt;Route path="/search" element={&lt;SearchPage /&gt;} /&gt;
+          &lt;Route path={`/hero/:id`} element={&lt;HeroPage /&gt;} /&gt;
 &nbsp;
-        default:
-            return state;
-    }
-&nbsp;
-}</pre></td></tr></table></pre>
+          &lt;Route path="/" element={&lt;Navigate to="/marvel" /&gt;} /&gt;
+        &lt;/Routes&gt;
+      &lt;/div&gt;
+    &lt;/&gt;
+  );
+};
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
