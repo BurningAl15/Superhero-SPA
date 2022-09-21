@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1663734092768" clover="3.2.0">
-  <project timestamp="1663734092768" name="All files">
-    <metrics statements="112" coveredstatements="58" conditionals="32" coveredconditionals="12" methods="39" coveredmethods="15" elements="183" coveredelements="85" complexity="0" loc="112" ncloc="112" packages="14" files="30" classes="30"/>
+<coverage generated="1663736152709" clover="3.2.0">
+  <project timestamp="1663736152709" name="All files">
+    <metrics statements="112" coveredstatements="61" conditionals="32" coveredconditionals="12" methods="39" coveredmethods="17" elements="183" coveredelements="90" complexity="0" loc="112" ncloc="112" packages="14" files="30" classes="30"/>
     <package name="auth">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\auth\index.js">
@@ -12,15 +12,15 @@
       <metrics statements="22" coveredstatements="9" conditionals="5" coveredconditionals="3" methods="5" coveredmethods="1"/>
       <file name="AuthContext.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\auth\context\AuthContext.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
       </file>
       <file name="AuthProvider.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\auth\context\AuthProvider.jsx">
         <metrics statements="16" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="7" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="25" count="0" type="stmt"/>
@@ -35,7 +35,7 @@
       </file>
       <file name="authReducer.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\auth\context\authReducer.js">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="3" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="3" count="6" type="cond" truecount="0" falsecount="1"/>
         <line num="5" count="3" type="cond" truecount="3" falsecount="0"/>
         <line num="7" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -49,7 +49,7 @@
       <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="LoginPage.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\auth\pages\LoginPage.jsx">
         <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="5" count="5" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -67,7 +67,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="types.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\auth\types\types.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
       </file>
     </package>
     <package name="heroes">
@@ -80,18 +80,18 @@
       <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
       <file name="HeroCard.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\components\HeroCard.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="10" type="cond" truecount="1" falsecount="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="17" count="10" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="30" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="15" count="30" type="stmt"/>
+        <line num="17" count="30" type="stmt"/>
       </file>
       <file name="HeroList.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\components\HeroList.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="12" count="10" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="12" count="30" type="stmt"/>
       </file>
       <file name="index.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\components\index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -101,30 +101,30 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="heroes.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\data\heroes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
     </package>
     <package name="heroes.helpers">
       <metrics statements="11" coveredstatements="6" conditionals="5" coveredconditionals="1" methods="6" coveredmethods="2"/>
       <file name="getHeroById.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\helpers\getHeroById.js">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
       <file name="getHeroesByName.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\helpers\getHeroesByName.js">
         <metrics statements="4" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="3" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="5" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="stmt"/>
       </file>
       <file name="getHeroesByPublisher.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\helpers\getHeroesByPublisher.js">
         <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="11" count="20" type="stmt"/>
+        <line num="11" count="60" type="stmt"/>
       </file>
       <file name="index.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\helpers\index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -134,13 +134,13 @@
       <metrics statements="28" coveredstatements="6" conditionals="7" coveredconditionals="0" methods="10" coveredmethods="1"/>
       <file name="DcPage.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\pages\DcPage.jsx">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
       </file>
       <file name="HeroPage.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\pages\HeroPage.jsx">
         <metrics statements="10" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
@@ -153,13 +153,13 @@
       </file>
       <file name="MarvelPage.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\pages\MarvelPage.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
       </file>
       <file name="SearchPage.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\pages\SearchPage.jsx">
         <metrics statements="12" coveredstatements="1" conditionals="5" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -180,15 +180,15 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="HeroesRoutes.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\heroes\routes\HeroesRoutes.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
       </file>
     </package>
     <package name="hooks">
       <metrics statements="8" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="useForms.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\hooks\useForms.jsx">
         <metrics statements="8" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="3" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="4" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -202,21 +202,21 @@
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="AppRouter.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\router\AppRouter.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
       </file>
       <file name="PrivateRoute.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\router\PrivateRoute.jsx">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="5" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="PublicRoute.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\router\PublicRoute.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
         <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
       </file>
@@ -228,19 +228,19 @@
       </file>
     </package>
     <package name="ui.components">
-      <metrics statements="10" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="1"/>
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="Navbar.jsx" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\ui\components\Navbar.jsx">
-        <metrics statements="10" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
       </file>
       <file name="index.js" path="D:\UdemyCourses\ReactBootcamp\heroes-spa\src\ui\components\index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
